@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.keys-container{
+    width: 1068px;
+    height: 360px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    background-color: rgb(51, 50, 50);
+    padding: 5px;
+    -webkit-box-shadow: -1px -9px 54px -1px rgba(84,84,84,1);
+    -moz-box-shadow: -1px -9px 54px -1px rgba(84,84,84,1);
+    box-shadow: -1px -9px 54px -1px rgba(84,84,84,1);
+}
+
+.key{
+    width: 60px;
+    height: 60px;
+    font-size: 16px;
+    border: none;
+    margin: 5px;
+    background-color: rgb(94, 93, 93);
+    color: white;
+    transition: all ease .1s;
+}
+
+.control{
+    width: 60px;
+    height: 60px;
+    font-size: 16px;
+    border: none;
+    margin: 5px;
+    background-color: rgb(94, 93, 93);
+    color: white;
+    transition: all ease .1s;
+}
+
+.delete{
+    width: 60px;
+    height: 60px;
+    font-size: 16px;
+    border: none;
+    margin: 5px;
+    background-color: rgb(94, 93, 93);
+    color: white;
+    transition: all ease .1s;
+}
+
+.alt{
+    width: 60px;
+    height: 60px;
+    font-size: 16px;
+    border: none;
+    margin: 5px;
+    background-color: rgb(94, 93, 93);
+    color: white;
+    transition: all ease .1s;
+}
+
+.number{
+    width: 60px;
+    height: 60px;
+    font-size: 16px;
+    border: none;
+    margin: 5px;
+    background-color: rgb(94, 93, 93);
+    color: white;
+    transition: all ease .1s;
+}
+
+.big{
+    width: 134px;
+    height: 60px;
+    font-size: 16px;
+    border: none;
+    margin: 5px;
+    background-color: rgb(94, 93, 93);
+    color: white;
+}
+
+.space{
+    width: 553px;
+    height: 60px;
+    border: none;
+    margin: 5px;
+    background-color: rgb(94, 93, 93);
+    color: white;
+}
+
+.active{
+    background-color:  rgb(190, 190, 190);
+    color: black;
+    -webkit-box-shadow: inset 1px 2px 9px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 1px 2px 9px 1px rgba(0,0,0,0.75);
+    box-shadow: inset 1px 2px 9px 1px rgba(0,0,0,0.75);
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.info{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 220px;
+    font-size: 25px;
+    /* background-color: rgb(51, 50, 50); */
+    color: #635555;
+}
+
+.textarea{
+    position: absolute;
+    width: 1000px;
+    height: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+}
+
+button:hover{
+    cursor: grab;
+    background-color:  rgb(190, 190, 190);
+}
+
+button:active{
+    -webkit-box-shadow: inset 1px 2px 9px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 1px 2px 9px 1px rgba(0,0,0,0.75);
+    box-shadow: inset 1px 2px 9px 1px rgba(0,0,0,0.75);
+    cursor: grabbing;
+}
