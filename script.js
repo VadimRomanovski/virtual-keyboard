@@ -141,7 +141,7 @@ const englishKeysUp = {
     b: "B",
     n: "N",
     m: "M",
-    comma: "<",
+    comma: "\\",
     period: "~",
     slash: "?",
     arrowUp: "&#8593",
