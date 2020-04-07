@@ -3,7 +3,7 @@ const info = document.createElement("div");
 const keyBoard = document.createElement("div");
 const body = document.querySelector("body");
 info.classList.add("info");
-info.innerText = "Shift + Alt for change language";
+info.innerText = "Shift + Alt for change language. OS: Windows. Skype: live:mr.vromanovski";
 textarea.classList.add("textarea");
 keyBoard.classList.add("keys-container");
 body.append(textarea);

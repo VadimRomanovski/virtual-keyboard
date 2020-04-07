@@ -114,6 +114,8 @@
     font-size: 25px;
     /* background-color: rgb(51, 50, 50); */
     color: #635555;
+    width: 1000px;
+    text-align: center;
 }
 
 .textarea{
