@@ -292,15 +292,31 @@ const drawButtons = (l) => {
             if(englishKeysUp[key] === "&#8593"){
                 button.classList.add("key");
                 button.classList.add("ArrowUP");
+                button.addEventListener("click", () => {
+                    textarea.value += button.innerHTML;
+                    textarea.focus();
+                });
             }else if(englishKeysUp[key] === "&#8592"){
                 button.classList.add("key");
                 button.classList.add("ArrowLeft");
+                button.addEventListener("click", () => {
+                    textarea.value += button.innerHTML;
+                    textarea.focus();
+                });
             }else if(englishKeysUp[key] === "&#8595"){
                 button.classList.add("key");
                 button.classList.add("ArrowDown");
+                button.addEventListener("click", () => {
+                    textarea.value += button.innerHTML;
+                    textarea.focus();
+                });
             }else if(englishKeysUp[key] === "&#8594"){
                 button.classList.add("key");
                 button.classList.add("ArrowRight");
+                button.addEventListener("click", () => {
+                    textarea.value += button.innerHTML;
+                    textarea.focus();
+                });
             }else if(englishKeys[key] == "Backspace"){
                 button.classList.add("big");
                 button.classList.add("backpace");
@@ -332,13 +348,13 @@ const drawButtons = (l) => {
                 button.addEventListener("click", () => {
                     textarea.value += "   ";
                     textarea.focus();
-                })
+                });
             }else if(englishKeys[key] == "Space"){
                 button.classList.add("space");
                 button.addEventListener("click", () => {
                     textarea.value += " ";
                     textarea.focus();
-                })
+                });
             }else if(englishKeys[key] == "Control"){
                 button.classList.add("control");
             }else if(englishKeys[key] == "Delete"){
@@ -367,15 +383,31 @@ const drawButtons = (l) => {
             if(englishKeysUp[key] === "&#8593"){
                 button.classList.add("key");
                 button.classList.add("ArrowUP");
+                button.addEventListener("click", () => {
+                    textarea.value += button.innerHTML;
+                    textarea.focus();
+                });
             }else if(englishKeysUp[key] === "&#8592"){
                 button.classList.add("key");
                 button.classList.add("ArrowLeft");
+                button.addEventListener("click", () => {
+                    textarea.value += button.innerHTML;
+                    textarea.focus();
+                });
             }else if(englishKeysUp[key] === "&#8595"){
                 button.classList.add("key");
                 button.classList.add("ArrowDown");
+                button.addEventListener("click", () => {
+                    textarea.value += button.innerHTML;
+                    textarea.focus();
+                });
             }else if(englishKeysUp[key] === "&#8594"){
                 button.classList.add("key");
                 button.classList.add("ArrowRight");
+                button.addEventListener("click", () => {
+                    textarea.value += button.innerHTML;
+                    textarea.focus();
+                });
             }else if(russianKeys[key] == "Backspace"){
                 button.classList.add("big");
                 button.classList.add("backpace");
@@ -404,6 +436,10 @@ const drawButtons = (l) => {
             }else if(russianKeys[key] == "Tab"){
                 button.classList.add("big");
                 button.classList.add("tab");
+                button.addEventListener("click", () => {
+                    textarea.value += "   ";
+                    textarea.focus();
+                });
             }else if(typeof(russianKeys[key]) == "number"){
                 button.classList.add("number");
             }else if(russianKeys[key] == "Space"){
@@ -597,6 +633,3 @@ window.addEventListener("keyup", (e) => {
             break;
     }
 })
-
-
-
